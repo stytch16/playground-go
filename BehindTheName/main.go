@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stytch16/BehindTheName/NameData"
+	"github.com/stytch16/playground-go/BehindTheName/NameData"
 )
 
 /* TODO: Handle issue with feminine and masculine names. They have be joined.
@@ -94,7 +94,7 @@ func clearconsole() {
 
 /*  errorLog checks to see if error is not nil. If so, logs it and ends program. */
 func errorLog(e error) {
-	if err != nil {
-		log.Fatal(err)
+	if e != nil {
+		log.Fatal(e)
 	}
 }

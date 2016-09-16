@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/stytch16/BehindTheName/ParseHTML"
-
+	"github.com/stytch16/playground-go/BehindTheName/ParseHTML"
 	"golang.org/x/net/html"
 )
 
